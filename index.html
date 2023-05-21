@@ -10,6 +10,7 @@
     <style>
         body {
             background-image: url(./images/ISTAPIC.png);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         .navbar {
             display: flex;
@@ -18,12 +19,32 @@
 
         .title p {
             font-size: xx-large;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-weight: bold;
         }
-        /* .navbar .img-sbou {
-            align-items: right;
-        } */
+
+        main {
+            margin-top: 250px;
+        }
+
+        main:hover {
+            margin-top: 0px;
+        }
+
+        main p {
+            width: 42vw;
+            height: 45vh;
+            background-color: azure;
+            color: #000;
+            margin: auto;
+            padding: 35px;
+            font-weight: bold;
+            font-size: larger;
+        }
+
+        main p:hover {
+            color: rgb(24, 77, 3);
+            background-color: rgb(79, 167, 53);
+        }
     </style>
     <div class="navbar">
         <div class="img-ista">
@@ -36,5 +57,10 @@
             <img src="./images/logo_footer_new.webp" alt="">
         </div>
     </div>
+    <main>
+        <p>
+            Le projet de fin d'étude consiste à héberger un site web sur Azure Cloud. Pour cela, plusieurs options sont possibles. L'une d'entre elles est d'utiliser Azure App Service, qui permet d'héberger des applications web et des API dans Azure de manière simple et rapide. Une autre option est d'activer l'hébergement de site web statique avec le Portail Azure, Azure CLI ou PowerShell. Cette fonctionnalité doit être activée sur le compte de stockage. Le Cloud Computing peut permettre d'effectuer des économies grâce à la mutualisation des services sur un grand nombre de clients. Le projet devra donc prendre en compte les avantages, inconvénients, risques et offres du marché pour élaborer une solution technologique de Cloud Computing répondant aux besoins du site web à héberger.
+        </p>
+    </main>
 </body>
 </html>
