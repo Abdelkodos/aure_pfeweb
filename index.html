@@ -19,7 +19,9 @@
 
         .title p {
             font-size: xx-large;
-            font-weight: bold;
+            color: #fff;
+            font-weight: bolder;
+            -webkit-text-stroke: #000 2px;
         }
 
         main {
@@ -44,6 +46,32 @@
         main p:hover {
             color: rgb(24, 77, 3);
             background-color: rgb(79, 167, 53);
+        }
+
+        @media only screen and (max-width: 600px) {
+            .navbar .img-ista {
+                display: none;
+            }
+
+            .navbar .img-sbou {
+                display: none;
+            }
+
+            main {
+                margin-top: 0px;
+            }
+
+            main p {
+                width: 70vw;
+                height: 105vh;
+                background-color: azure;
+                color: #000;
+                margin: auto;
+                padding: 15px;
+                font-weight: bold;
+                font-size: larger;
+            }
+
         }
     </style>
     <div class="navbar">
